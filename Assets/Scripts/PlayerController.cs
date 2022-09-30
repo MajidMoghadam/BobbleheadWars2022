@@ -18,5 +18,8 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         characterController.SimpleMove(moveDirection * moveSpeed);
+        //characterController.Move(moveDirection * moveSpeed);
     }
+
+    
 }
