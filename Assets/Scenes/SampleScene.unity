@@ -1607,6 +1607,69 @@ Transform:
   m_Father: {fileID: 992931029}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1623019931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1623019933}
+  - component: {fileID: 1623019932}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1623019932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623019931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607e407141f33b64796b5b885a3e57fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 499514331}
+  spawnPoints:
+  - {fileID: 1593226526}
+  - {fileID: 1553464515}
+  - {fileID: 1472087849}
+  - {fileID: 810874566}
+  - {fileID: 1684853230}
+  - {fileID: 1547367198}
+  - {fileID: 488587871}
+  - {fileID: 1859602290}
+  - {fileID: 584271792}
+  - {fileID: 1792374324}
+  - {fileID: 2132906820}
+  alien: {fileID: 9210202612555138076, guid: 0677669282ba0d349b05fbccac420ba8, type: 3}
+  maxAliensOnScreen: 0
+  totalAliens: 0
+  minSpawnTime: 0
+  maxSpawnTime: 0
+  aliensPerSpawn: 0
+--- !u!4 &1623019933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623019931}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -49.14926, y: -1.5665588, z: 61.36988}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1684853230
 GameObject:
   m_ObjectHideFlags: 0
