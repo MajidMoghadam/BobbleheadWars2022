@@ -79,6 +79,16 @@ public class GameManager : MonoBehaviour
                         GameObject newAlien = Instantiate(alien) as GameObject;
                         //this positions the alien at the spawnpoint
                         newAlien.transform.position = spawnLocation.transform.position;
+                        //get a reference to the Alien script
+                        Alien alienScript = newAlien.GetComponent<Alien>();
+                        //sets the target to the Marines current position
+                        alienScript.target = player.transform;
+                        //rotate alien towards the player
+                        Vector3 targetRotation = new Vector3(
+                            player.transform.position.x,
+                            newAlien.transform.position.y, 
+                            player.transform.position.z);
+                        newAlien.transform.LookAt(targetRotation);
                     }
                 }
             }
