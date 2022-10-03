@@ -101,6 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  navigationUpdate: 0.5
 --- !u!1001 &3637265996609559680
 PrefabInstance:
   m_ObjectHideFlags: 0
